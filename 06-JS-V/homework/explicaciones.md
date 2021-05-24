@@ -1,0 +1,4 @@
+* `prototype`
+    La propiedad prototipo nos permite añadir nuevas propiedades y/o metodos a constructores de objetos y objetos, ademas, todos los objetos heredan las propiedades y metodos de un prototipo, la funcion principal es que si la propiedad no existe en el objeto, este la busca en su prototipo.
+* _Constructors_ (de Clases)
+    Cuando precisamos crear varios objetos similares, es cuando tenemos que usar la funcion constructora de clases. Creando un constructor podemos definir las propiedades y utilizar variables para asignarle valores, o podemos incluso poner un valor default en caso que al crear el objeto no nos pasen ningun valor.
