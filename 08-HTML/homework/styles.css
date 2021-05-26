@@ -1,17 +1,49 @@
 h1{
-    color: rgb(27, 41, 121)
+    color: rgb(139, 3, 3);
+    background-color: lightyellow;
+    border: 4px solid rgb(233,98,26);
+    border-radius: 40%;
+    width: 500px;
+    text-align: center;
 }
 img{
     width: 400px;
+    border: 3px solid black;
+    margin: 30px 0;
 }
 #thirdDiv{
     height: 600px;
     width: 500px;
-    background-color: rgb(86, 103, 197);
+    background-color: rgb(125, 129, 153);
     padding: 50px;
-    border: 2px solid rgb(27, 41, 121)
+    border: 2px solid rgb(26, 26, 27)
+}
+ul{
+    list-style-type: none;
+    margin: 15px;
 }
 #spanId{
     font-size: 18px;
     margin: 50px;
+}
+body{
+    background-image: url("https://i.pinimg.com/736x/44/e3/12/44e312583bf60701dea030625908c81f.jpg");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    text-align: center;
+    margin: 20px 200px;
+}
+a{
+    display: block;
+}
+#este{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 10px;
 }
