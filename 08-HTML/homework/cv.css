@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    background-image: url("https://thumbs.dreamstime.com/b/terrazzo-seamless-pattern-abstract-colorful-repetitive-background-modern-vector-wallpaper-125799486.jpg");
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#contenedor{
+    width: 800px;
+    background-color: white;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    width: 700px;
+    margin: 20px auto;
+}
+h1{
+    font-size: 50px;
+}
+h1>span{
+    color: rgb(77, 76, 76);
+}
+h3{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+div>span{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+img{
+    height: 500px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+ul{
+    list-style: none;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(9, 105, 9);
+}
+li>span{
+    color:rgb(10, 10, 10)
+}
+#exp{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
